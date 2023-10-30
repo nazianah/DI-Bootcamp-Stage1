@@ -1,0 +1,30 @@
+
+div {
+    border: 3px solid black;
+}
+.col {
+  height:400px;
+  width:25%;
+  margin-left:1%;
+  display: inline-block;
+}
+.top{
+  background: purple;
+  width: 79%;
+  height: 200px;
+  margin-bottom: 30px;
+}
+img {
+  width: 100%;
+  height: inherit;
+}
+.col1 {
+  background-color: maroon;
+
+}
+.col2 {
+  background-color: lightgreen;
+}
+.col3 {
+  background-color: orange;
+}

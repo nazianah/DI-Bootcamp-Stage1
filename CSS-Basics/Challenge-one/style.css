@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: aqua;
+}
+#wrap{
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+}
+#wrap h1{
+    text-align: left;
+}
+#wrap >p {
+    text-align: left;
+}
+#wrap ul{
+    list-style-type: none;
+}
+#wrap li::first-letter{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.copyright{
+    text-align: left;
+}
+.copyright a{
+    text-decoration: none;
+}
+.copyright a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}

@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+div{
+    display:inline-block;
+    height: 200px;
+}
+.container{
+    width:100%;
+}
+.left{
+    border: 3px solid black;
+    width: 30%;
+    margin-right: 50px;
+    background-color: lightcoral;
+}
+.right{
+    border: 3px solid black;
+    width: 60%;
+    background-color: blue;
+}
+.bottom{
+        border: 3px solid black;
+        width: 92.8%;
+        background-color: yellow;
+}

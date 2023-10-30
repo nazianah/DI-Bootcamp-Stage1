@@ -1,0 +1,41 @@
+*{ box-sizing: border-box;
+margin: 0 auto; }
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkslateblue;
+}
+#wrap{
+    padding: auto;
+    width: 700px;
+    height: 500px;
+    background-color: rgb(24, 19, 130);
+}
+#nav{
+    float: left;
+    width: 20%;
+    height: 500px;
+    background-color: lightskyblue;
+    padding-top: 1em;
+}
+#content{
+    padding: 1em;
+}
+#content p{
+    padding: 1em;
+}
+#content ul{
+    padding-top: 10px;
+    text-align: center;
+    list-style-type: none;
+}
+.copyright{
+    clear: both;
+    color: white;
+    text-align: center;
+}
+.copyright a{
+    color: red;
+}
+
